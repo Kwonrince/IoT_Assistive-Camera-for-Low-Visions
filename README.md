@@ -27,7 +27,7 @@ For simplicity, we take the middle point of the bounding box as the position of 
 Our method requires real-time inference, but there is a delay in recording and sound playback due to the characteristics of Python. To solve this, we divided it into threads for inferring the model, recording, and sound playback, so that there is no burden on real-time detection.
 
 ### Reasons for using the server
-Konlpy operates on top of the Java Virtual Machine, but there have been problems with the Coral Board due to insufficient RAM memory. Although we tried to use the swap memory settings of the Coral Board to utilize disk space as virtual memory, there was a decrease in speed in real-time named entity recognition. To solve this, we configured it to send input text to the server and perform NER on the server, and then receive the result value back.
+Konlpy operates on top of the Java Virtual Machine, but there have been problems with the Coral Board due to insufficient RAM. Although we tried to use the swap memory settings of the Coral Board to utilize disk space as virtual memory, there was a decrease in speed in real-time named entity recognition. To solve this, we configured it to send input text to the server and perform NER on the server, and then receive the result value back.
 
 ## Demo video
 - [Link](https://youtu.be/kKd2dy-_Hiw)
