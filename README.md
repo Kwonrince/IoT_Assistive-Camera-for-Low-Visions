@@ -72,7 +72,7 @@ After running, you can check the operation by connecting to the following addres
 ```bash
 $ python server.py --server_ip [ip]
 ```
-The server and host must be located at the same IP address.
+The server, host and coral board must be located at the same IP address.
 
 ------------
 ## Contributor
