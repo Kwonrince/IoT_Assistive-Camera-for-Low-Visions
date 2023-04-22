@@ -60,6 +60,12 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
 $ python detect.py --mic_port [coral board mic port] --server_ip [ip]
 ```
 
+The server and client must be located at the same IP address.
+```bash
+$ python server.py --server_ip [ip]
+```
+
+
 ------------
 ## Contributor
 - Soonki Kwon, kwonrince@gmail.com
