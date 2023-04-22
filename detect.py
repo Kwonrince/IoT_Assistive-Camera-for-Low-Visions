@@ -30,7 +30,7 @@ class STT(threading.Thread):
                         'Host': 'kakaoi-newtone-openapi.kakao.com',
                         'Content-Type': 'application/octet-stream',
                         'X-DSS-Service': 'DICTATION',
-                        'Authorization': f'KakaoAK 37aaf49135840088d4fd3510d3905f37',
+                        'Authorization': f'KakaoAK {REST API KEY}',
                         }
         self.labels_dict = convertK2V()
         self.audio_q = audio_q
