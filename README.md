@@ -56,6 +56,12 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
   - To tell the location of the object
 
 ## Run
+Please refer to the following for Coral Board settings.
+
+https://coral.ai/docs/dev-board/get-started/#install-mdt
+
+You have to change authorization key in `detect.py` `line 33`. Please refer to the Kakao API documentation for API KEY issuance.
+
 ```bash
 $ python detect.py --mic_port [coral board mic port] --server_ip [ip]
 ```
