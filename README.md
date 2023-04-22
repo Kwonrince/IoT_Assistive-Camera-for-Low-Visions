@@ -60,17 +60,19 @@ Please refer to the following for Coral Board settings.
 
 https://coral.ai/docs/dev-board/get-started/#install-mdt
 
-You have to change authorization key in `detect.py` `line 33`. Please refer to the Kakao API documentation for API KEY issuance.
+You have to change authorization key in `detect.py` `line 33`. Please refer to the [Kakao API documentation](https://developers.kakao.com/) for API KEY issuance.
 
+#### host
 ```bash
 $ python detect.py --mic_port [coral board mic port] --server_ip [ip]
 ```
+After running, you can check the operation by connecting to the following address from the host computer. `http://localhost:5000/`
 
-The server and client must be located at the same IP address.
+#### server
 ```bash
 $ python server.py --server_ip [ip]
 ```
-
+The server and host must be located at the same IP address.
 
 ------------
 ## Contributor
