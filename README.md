@@ -49,3 +49,9 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
 - TTS
   - [Google text-to-speech module](https://pypi.org/project/gTTS/)
   - To tell the location of the object
+
+
+** Contributor
+- Soonki Kwon, kwonrince@gmail.com
+- Hyunho Lee, lake8000@ds.seoultech.ac.kr
+- Boyoung Han, byhan2253@ds.seoultech.ac.kr
