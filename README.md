@@ -57,7 +57,7 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
 
 ## Run
 ```bash
-$ python detect.py --gradient_clip_val 1.0 --max_epochs 50 --default_root_dir logs --gpus 4 --batch_size 6 --num_workers 8 --accelerator ddp --max_len 512
+$ python detect.py --mic_port [coral board mic port] --server_ip [ip]
 ```
 
 ------------
