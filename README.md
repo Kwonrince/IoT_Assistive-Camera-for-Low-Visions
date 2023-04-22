@@ -4,7 +4,7 @@ Assistive Camera for Low Visions using Google Coral Dev Board
 ## Overview
 There are many people with low vision all around the world. Because of their physical disability, they have difficulties finding objects. In order to help them find their object much easier and more useful, we designed the ‘Assistive Camera for Low Visions’. The main idea of our project is 'User simply speak the stuff what he/she wants to find. After that, the device will tell the location of that stuff'. We expect this device can help low vision people to find their stuff conveniently.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/72617445/233795528-bb0ed3b6-f639-41b0-9d97-c441fdcc2d83.png" width="50%" height="50%"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/72617445/233795528-bb0ed3b6-f639-41b0-9d97-c441fdcc2d83.png" width="80%" height="80%"></p>
 
 
 ## Methodology
