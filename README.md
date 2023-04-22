@@ -55,6 +55,10 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
   - [Google text-to-speech module](https://pypi.org/project/gTTS/)
   - To tell the location of the object
 
+## Run
+```bash
+$ python detect.py --gradient_clip_val 1.0 --max_epochs 50 --default_root_dir logs --gpus 4 --batch_size 6 --num_workers 8 --accelerator ddp --max_len 512
+```
 
 ------------
 ## Contributor
