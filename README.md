@@ -51,7 +51,8 @@ Konlpy operates on top of the Java Virtual Machine, but there have been problems
   - To tell the location of the object
 
 
-** Contributor
+------------
+## Contributor
 - Soonki Kwon, kwonrince@gmail.com
 - Hyunho Lee, lake8000@ds.seoultech.ac.kr
 - Boyoung Han, byhan2253@ds.seoultech.ac.kr
