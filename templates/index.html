@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Video Streaming</title>
+  </head>
+  <body>
+    <h1>Video</h1>
+    <img src="{{ url_for('calc') }}">
+    <form action="{{ url_for('run') }}" method = "POST">
+    <label class="form-label">Count: </label>
+    <input class="form-control" type="text" name="msg" value=1>
+    <button class="btn btn-success btn-block rounded">시작</button>
+    </form>
+  </body>
+</html>
