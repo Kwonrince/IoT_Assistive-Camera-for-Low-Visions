@@ -1,11 +1,15 @@
 import socket
 from konlpy.tag import Kkma
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--server_ip', help='server ip address', type=str)
+args = parser.parse_args()
+
 ner = Kkma()
 ner.nouns('ner 초기화')
 
 # 통신 정보 설정
-IP = '192.168.0.22'
+IP = args.server_ip
 PORT = 5050
 SIZE = 1024
 ADDR = (IP, PORT)
